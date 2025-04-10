@@ -29,7 +29,7 @@ html,body{
 }
 
 .descricao{
-    -size: 15px;font
+    font-size: 15px:font;
     font-family: arial;
     font-weight: bold;
     padding: 10px 5px;
@@ -87,4 +87,9 @@ html,body{
     color: #ffffff;
     font-weight: bold ;
 
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
 }
