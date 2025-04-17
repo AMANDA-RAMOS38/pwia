@@ -1,0 +1,38 @@
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.dados-produto{
+    display: flex;
+
+}
+
+.img-produto{
+
+}
+
+.info-produto{
+
+}
+
+.titulo-produto{
+
+}
+
+.valor-produto{
+
+}
+
+.add-produto-carrinho{
+
+}
+
+.descricao-produto{
+
+}
+
+.lista-personalizada{
+    list-style:none  ;
+}
+
