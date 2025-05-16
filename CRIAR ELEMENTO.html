@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIAÇÃO DE ELEMENTO</title>
+</head>
+<body>
+    <h1>CRIAÇÃO DE ELEMENTO</h1>
+    <input id="texto"  type="text" name="texto" />
+    <div id="caixa"> </div> 
+    <button onclick="CRIARELEMENTO()">
+    Gerar Elemento
+</button>
+<script>
+    function CRIARELEMENTO()
+        {
+            var digitado        
+            var novoH1 = document.createElement("h1")
+            novoH1.style.backgroundColor = '#0065ff'
+            novoH1.style.color = '#FFFFFF'
+            novoH1.id = "titulo"
+            novoH1.classList.add("primeirotitulo")
+            novoH1.innerText= "texto criado dinamicamente"
+
+            var div = document.getElementById("caixa")
+            div.append(novoH1)
+        }  
+
+</script>
+</body>
+</html>
