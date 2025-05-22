@@ -25,6 +25,21 @@
             item.append = (img)
             lista.append(item)
         }
+
+        var nomes = ["Nix", "Nalu", "Heitor", "Amanda", "Emerson", "Daniel", "Nilza", "Lucimara", "Lilian", "Fernando", "Fernanda", 
+        "Luiz", "Maristela"]
+        //alert( nomes [numeroAleatório( nomes.length )] )
+
+        for( var i = 0; i < nomes.length; i++)
+            {
+                document.write ("<br>"+nomes[i])
+            }
+        
+        function numeroAleatório(numeroMaximo)
+            {
+                return Math.floor(Math.random() * numeroMaximo)
+            }
+        
     </script>
 </body>
 </html>
