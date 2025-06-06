@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #17d450;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #pokemon-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e08114;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(187, 12, 12, 0.1);
+  }
+  
